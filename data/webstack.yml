@@ -27,6 +27,10 @@
       logo: github.jpg
       url: https://github.com/
       description: GitHub 开源社区。
+    - title: Gitee
+      logo: gitee.jpg
+      url: https://gitee.com/
+      description: Gitee 开源社区。
     - title: Md2ALL
       logo: md2all.jpg
       url: http://md.aclickall.com/
@@ -56,6 +60,44 @@
       url: https://www.yuque.com/shenweiyan/wow
       description: 好看的皮囊千篇一律，有趣的灵魂万里挑一！
 
+- taxonomy: 技术专题
+  icon: fas fa-solid fa-bug
+  list:
+    - term: 前端学习
+      links:
+        - title: HTML 教程
+          logo: html.jpg
+          url: https://www.runoob.com/html/html-tutorial.html
+          description: 超文本标记语言（英语：HyperText Markup Language，简称：HTML）。
+        - title: HTML5 教程
+          logo: html5.png
+          url: https://www.runoob.com/html/html5-intro.html
+          description: HTML5是HTML最新的修订版本，2014年10月由万维网联盟（W3C）完成标准制定。
+        - title: css 教程
+          logo: css.jpg
+          url: https://www.runoob.com/css/css-tutorial.html
+          description: 使用 CSS 同时控制多重网页的样式和布局。
+        - title: css3 教程
+          logo: css3.png
+          url: https://www.runoob.com/css3/css3-tutorial.html
+          description: CSS3 是最新的 CSS 标准。
+        - title: bootstrap3 教程
+          logo: bootstrap3.png
+          url: https://www.runoob.com/bootstrap/bootstrap-tutorial.html
+          description: Bootstrap 是基于 HTML、CSS、JAVASCRIPT的前端框架。
+        - title: bootstrap4 教程
+          logo: bootstrap4.png
+          url: https://www.runoob.com/bootstrap4/bootstrap4-tutorial.html
+          description: Bootstrap4 是一套用于 HTML、CSS 和 JS 开发的开源工具集。
+        - title: Bootstrap5 教程
+          logo: bootstrap5.png
+          url: https://www.runoob.com/bootstrap5/bootstrap5-tutorial.html
+          description: Bootstrap5 目前是 Bootstrap 的最新版本。
+        - title: font-awesome 教程
+          logo: font-awesome.png
+          url: https://www.runoob.com/font-awesome/fontawesome-tutorial.html
+          description: Font Awesome 是一套绝佳的图标字体库和CSS框架。
+          
 
 - taxonomy: 办公学习
   icon: fas fa fa-laptop
@@ -109,7 +151,6 @@
           url: https://www.qingjiaocloud.com/
           description: 云桌面,一站式云电脑服务平台。
         
-
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
   list:
@@ -157,8 +198,7 @@
           logo: 战地之王.png
           url: https://ava.mangot5.com/ava/index
           description: 台服 AVA 战地之王。
-   
-      
+         
 - taxonomy: 素材资源
   icon: far fa-folder-open fa-lg
   list:
@@ -395,7 +435,6 @@
           logo: 500d.png
           description: 中国领先的PPT模板共享平台。
       
-
 - taxonomy: 开发设计
   icon: fas fa-tools fa-lg
   list: 
@@ -574,7 +613,6 @@
           url: http://mustsee.earth/
           logo: mustsee.png
           description: Discover the world's most beautiful places at every opened tab.
-
 
 - taxonomy: 资讯学习
   icon: fas fa-pencil-alt fa-lg
