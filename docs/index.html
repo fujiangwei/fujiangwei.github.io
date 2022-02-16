@@ -288,21 +288,6 @@
                     </div>
 
                     <ul class="nav navbar-menu text-xs order-1 order-md-2">
-                        
-                        <li class="nav-item mr-3 mr-lg-0 d-none d-lg-block">
-                            <script>
-                                fetch('https://v1.hitokoto.cn')
-                                    .then(response => response.json())
-                                    .then(data => {
-                                    const hitokoto = document.getElementById('hitokoto_text')
-                                    hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
-                                    hitokoto.innerText = data.hitokoto
-                                    })
-                                    .catch(console.error)
-                            </script>                           
-                            <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">疏影横斜水清浅，暗香浮动月黄昏。</a></div>
-                        </li>
-                        
                         <li class="nav-search ml-3 ml-md-4">
                             <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i
                                     class="iconfont icon-search icon-2x"></i></a>
@@ -469,7 +454,7 @@
                     常用推荐
                 </h4>
                 <div class="flex-fill"></div>
-                <a class='btn-move text-xs' href='#'>more+</a>
+                
             </div>
             
             <div class="row">
@@ -4891,9 +4876,7 @@
                     rel="search" one-link-mark="yes">
                     <i class="iconfont icon-search"></i>
                 </a>
-                <a href="https://www.yuque.com/shenweiyan" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="联系我们">
-                    <i class="mode-ico iconfont icon-qq"></i>
-                </a>
+                
                 
                 
                 <a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
@@ -5159,11 +5142,11 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
     }
 })();
 
-$("#search-bg").css("background-image", "url(assets\/images\/search-bg-light.jpg)");   
+$("#search-bg").css("background-image", "url(assets\/images\/search-bg-light.png)");   
 function switchNightMode(){
     var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
     if(night == '0'){
-	$("#search-bg").css("background-image", "url(assets\/images\/search-bg-light.jpg)");
+	$("#search-bg").css("background-image", "url(assets\/images\/search-bg-light.png)");
         document.body.classList.remove('io-grey-mode');
         document.body.classList.add('io-black-mode');
         document.cookie = "night=1;path=/"
@@ -5172,7 +5155,7 @@ function switchNightMode(){
         $(".mode-ico").removeClass("icon-night");
         $(".mode-ico").addClass("icon-light");
     }else{
-	$("#search-bg").css("background-image", "url(assets\/images\/search-bg-dark.jpg)")
+	$("#search-bg").css("background-image", "url(assets\/images\/search-bg-dark.png)")
         document.body.classList.remove('io-black-mode');
         document.body.classList.add('io-grey-mode');
         document.cookie = "night=0;path=/"
