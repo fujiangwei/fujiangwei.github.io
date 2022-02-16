@@ -629,6 +629,14 @@
           description: IT 互联网开源编程书籍免费阅读与下载。
     - term: 博客论坛
       links:
+        - title: 美团技术团队
+          url: https://tech.meituan.com/
+          logo: meituan.png
+          description: 美团技术团队技术博客。
+        - title: 小米信息部技术团队
+          url: https://xiaomi-info.github.io/
+          logo: xiaomi.png
+          description: 小米信息部技术团队博客。
         - title: Inoreader
           url: https://www.inoreader.com/
           logo: inoreader.jpg
