@@ -19,7 +19,11 @@
                 </a>
             </div>
             <div class="footer-inner">
-                <div class="footer-text">{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}</div>
+                <div class="footer-text">{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}
+                    {{if eq $.Site.Params.busuanzi "true"}}
+                        <span id="busuanzi_container_site_pv" style='display:inline'>总访问量 <span id="busuanzi_value_site_pv"></span> 次</span>
+                    {{end}}
+                </div>
             </div>
         </footer>
     </div><!-- main-content end -->
