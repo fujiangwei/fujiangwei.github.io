@@ -97,7 +97,15 @@
           logo: font-awesome.png
           url: https://www.runoob.com/font-awesome/fontawesome-tutorial.html
           description: Font Awesome 是一套绝佳的图标字体库和CSS框架。
-          
+        - title: element-ui 教程
+          logo: elementui.png
+          url:  https://element.eleme.cn/#/zh-CN/component/installation
+          description: Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库。
+        - title: uniapp 教程
+          logo: uniapp.png
+          url:  https://uniapp.dcloud.io/
+          description: uni-app 是一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/飞书/QQ/快手/钉钉/淘宝）、快应用等多个平台。
+       
 
 - taxonomy: 办公学习
   icon: fas fa fa-laptop
