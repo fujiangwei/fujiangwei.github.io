@@ -7,12 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language><atom:link href="https://fujiangwei.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>关于网站</title>
+      <title></title>
       <link>https://fujiangwei.github.io/about/</link>
-      <pubDate>Tue, 28 Jul 2020 19:27:08 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fujiangwei.github.io/about/</guid>
-      <description>这是 Hugo 版 WebStack 主题 本项目是基于纯静态的网址导航网站 webstack.cc 制作的 Hugo 主题，其中部分代码参考了以下几个开源项目： https://github.com/liutongxu/liutongxu.github.io https://github.com/iplaycode/webstack-hugo 主题安装后，将 exampleSite 目录下的文件复制到 hugo 站</description>
+      <description> 关于网站
+该网站主要用于日常工作使用，将自己常用的一些网站收集于此，方便后续直接查找使用
+ </description>
     </item>
     
   </channel>

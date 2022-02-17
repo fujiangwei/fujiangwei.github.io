@@ -86,7 +86,11 @@
             <footer class="main-footer sticky footer-type-1 fixed">
                 <div class="footer-inner">
                     <div class="footer-text">
-                        <strong>{{ if $.Site.Params.footer.copyright }}{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}{{ else }}BioIT 爱好者{{ end }}</strong> Design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> themes by <a href="{{ $.Site.Params.repository }}" target="_blank"><strong>shenweiyan</strong></a>
+                        {{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}
+                        {{if eq $.Site.Params.busuanzi "true"}}
+                        <span id="busuanzi_container_site_pv">本站总访问量 <span id="busuanzi_value_site_pv" style="color: aqua;font-size: 12px;"></span> 次 | </span>
+                        <span id="busuanzi_container_site_uv">本站总访客数 <span id="busuanzi_value_site_uv" style="color: rgb(0, 255, 191);font-size: 12px;"></span> 人</span>
+                        {{end}}
                     </div>
                     <div class="go-up">
                         <a href="#" rel="go-top">

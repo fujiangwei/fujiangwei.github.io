@@ -11,9 +11,9 @@ publishDir = "docs"
 [params]
     author        = "fujiangwei"
     description   = "来学吧 | 猿有道"
-    siteurl       = "./"
-    about         = ""   # 左侧导航栏的"关于导航"页面(./about)
-    repository    = "https://github.com/shenweiyan/WebStack-Hugo"
+    siteurl       = "https://fujiangwei.github.io/"
+    about         = "./about"   # 左侧导航栏的"关于导航"页面(./about)
+    repository    = "https://github.com"
     enablePreLoad = false		    		        # 网站完全打开前预加载的动画
     textPreLoad   = "来学吧 | 猿有道"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
     logosPath     = "assets/images/logos"				# 网站每个导航地址logo存放地址
